@@ -1,0 +1,2 @@
+call grunt jscode
+pause

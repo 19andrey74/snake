@@ -1,0 +1,27 @@
+{
+	"name": "Snake",
+	"description": "Homework #3",
+	"author": "noname",
+	"version": "1.0.0",
+	"main": "src/index.js",
+	"dependencies": {
+		"systemjs": "~0.19.5",
+		"js-polyfills": "latest"
+	},
+	"devDependencies": {
+		"grunt": "latest",
+		"systemjs-builder": ">=0.14.10",
+		"grunt-targethtml": "~0.2.6",
+		"grunt-contrib-jshint": "latest",
+		"grunt-contrib-watch": "latest",
+		"grunt-jsdoc": "latest",
+		"grunt-contrib-jasmine": "latest",
+		"grunt-contrib-clean": "^0.6.0",
+		"grunt-contrib-concat": "^0.5.0",
+		"grunt-contrib-copy": "^0.7.0"
+	},
+	"scripts": {
+		"test": "grunt test && grunt code",
+		"build": "grunt build"
+	}
+}
